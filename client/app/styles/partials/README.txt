@@ -1,0 +1,1 @@
+The partials directory is where the meat of the CSS is constructed. 

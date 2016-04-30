@@ -1,0 +1,12 @@
+.info-link{
+  border: 1px solid black;
+  color: black;
+  font-weight: bold;
+  padding: 10px 25px 10px 25px;
+  font-size: 22px;
+  text-transform: uppercase;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
