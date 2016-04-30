@@ -6,8 +6,8 @@ var Schema = mongoose.Schema;
 
 // Define the Event Schema
 var eventSchema = new Schema({
-    userId: { type: Integer, required: true },
-    pluginId: { type: Integer, required: true },
+    userId: { type: Number, required: true },
+    pluginId: { type: Number, required: true },
     data: { type: String, required: true }
 });
 
