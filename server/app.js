@@ -66,5 +66,4 @@ if (app.get('env') === 'production') {
   });
 }
 
-
 module.exports = app;

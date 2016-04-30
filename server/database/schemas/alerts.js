@@ -1,10 +1,10 @@
 /**
- * Our Schema for Boners
+ * Our Schema for Alerts
  */
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
-// Define the User Schema
+// Define the Alert Schema
 var alertSchema = new Schema({
   message: { type: String, required: true },
   date: { type: Date, default: Date.now }

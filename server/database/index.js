@@ -4,6 +4,8 @@
 var mongoose = require('mongoose');
 var UserModel = require('./schemas/users');
 var AlertModel = require('./schemas/alerts');
+var PluginModel = require('./schemas/plugins');
+var EventModel = require('./schemas/events');
 
 // Connections
 var developmentDb = 'mongodb://localhost/test';
@@ -38,3 +40,5 @@ db.once('open', function callback () {
 
 exports.users = UserModel;
 exports.alerts = AlertModel;
+exports.plugins = PluginModel;
+exports.events = EventModel;
