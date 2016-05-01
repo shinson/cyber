@@ -8,7 +8,8 @@ var Schema = mongoose.Schema;
 var eventSchema = new Schema({
     userId: { type: Number, required: true },
     pluginId: { type: Number, required: true },
-    data: { type: String, required: true }
+    data: { type: String, required: true }, 
+    timestamp : { type: Date, default: Date.now }
 });
 
 // The primary plugin model
